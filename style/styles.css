@@ -4,7 +4,7 @@ body{
 }
 
 .header{
-    background-image: url();
+    
     text-align: center;
     background-image: url(/images/banner-img.png);
     background-repeat: no-repeat;
@@ -22,6 +22,11 @@ body{
     margin-bottom: 10px;
 }
 
+.header .banner-text {
+    padding: 120px 220px;
+    color: #fff;
+}
+
 .link-btn{
     padding: 15px 20px;
     background-color: rgb(241, 80, 80);
@@ -34,7 +39,48 @@ body{
 }
 
 
-.header .banner-text{
-    padding: 120px 220px;
-    color: #fff;
+
+
+.donate-today{
+    text-align: center;
+}
+
+.donate-today .donate-today-text {
+    padding: 100px 300px 50px 300px;
+}
+
+.donate-today .donate-today-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.donate-today .donate-today-text h3 {
+    color: gray;
+}
+
+#amount  {
+    width: 150px;
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgb(240, 242, 243);
+    margin: 0 10px 80px 10px; 
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(122, 121, 121);
+    
+}
+.insert-tk p{
+    color: rgb(192, 191, 191);
+}
+
+.insert-tk hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-style: inset;
+    border-width: 1px;
+    border-color: 1px solid rgb(192, 191, 191);
+    
 }
