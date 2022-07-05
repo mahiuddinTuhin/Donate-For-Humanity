@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Slab',
+    serif;
 }
 
 .header{
@@ -20,6 +22,8 @@ body{
 .header h3{
     margin-bottom: 50px;
 }
+
+
 .orange-text{
     color: orangered;
 }
@@ -51,9 +55,24 @@ body{
 
 
 .sub-text{
-    color: gray;
+    color: rgb(180, 180, 180);
+    font-family: 'Source Sans Pro',
+    sans-serif;
 }
 
+.highlight{
+    width: 150px;
+    padding: 40px 0;
+    background-color: rgb(254, 223, 221);
+    border: 1px solid rgb(255, 80, 80);
+    margin: 0 10px 80px 10px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 80, 80);
+    border-radius: 5px;
+
+}
 #amount  {
     width: 150px;
     padding: 40px 0;
@@ -63,6 +82,7 @@ body{
     font-size: 30px;
     font-weight: 600;
     color: rgb(122, 121, 121);
+    border-radius: 5px;
     
 }
 .insert-tk p{
@@ -77,16 +97,17 @@ body{
     background-color: rgb(216, 215, 215);
 }
 
+
 .donate-today{
     margin-bottom: 150px;
 }
 
 #box-type{
     width: 300px;
-    padding: 40px 30px;
+    padding: 40px 30px 40px 30px;
     margin: 50px 10px 80px 10px;
     display: inline-block;
-    height: 200px;
+    height: 250px;
     text-align: left;
 }
 
@@ -100,4 +121,18 @@ body{
 
 .shelter-box{
     background-color: rgb(216, 222, 255);
+}
+
+.footer{
+    padding: 50px 0;
+    text-align: center;
+    color:#fff;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(14, 13, 26);
+}
+
+.footer h1{
+    font-family: 'Brush Script MT',
+    cursive;
 }
