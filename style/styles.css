@@ -111,6 +111,8 @@ body{
     text-align: left;
 }
 
+
+
 .education-box{
     background-color: rgb(255, 237, 213);
 }
@@ -123,18 +125,45 @@ body{
     background-color: rgb(216, 222, 255);
 }
 
-.footer{
-    padding: 50px 0;
-    text-align: center;
-    color:#fff;
-    height: 70px;
-    width: 100%;
-    background-color: rgb(14, 13, 26);
+.bonus-section{
+    background-image: url(/images/homeless.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100%;
 }
 
-.footer h1{
-    font-family: 'Brush Script MT',
-    cursive;
+.bonus-header{
+    padding: 0px 200px;
+}
+.bonus-header-text {
+    font-size: 40px;
+    color: #fff;
+    padding: 20px;
+}
+.bonus-header h1{
+    font-size: ;
+}
+.bonus-sub-text{
+    color: rgb(199, 197, 197);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#circle-type{
+    display: inline-block;
+    position: center center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    background-image: linear-gradient(to right top, #f2f2f2, #dddddd, #c8c8c8, #b4b4b4, #a0a0a0);
+}
+
+#circle-type img{
+    margin-top: 50px;
 }
 
 .get-update-form{
@@ -161,4 +190,17 @@ body{
 }
 .get-update h1{
     font-size: 50px;
+}
+.footer {
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(14, 13, 26);
+}
+
+.footer h1 {
+    font-family: 'Brush Script MT',
+        cursive;
 }
