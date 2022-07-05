@@ -49,8 +49,8 @@ body{
 }
 
 
-.donate-today .donate-today-text {
-    padding: 100px 300px 50px 300px;
+.centering-text {
+    padding: 0 300px 50px 300px;
 }
 
 
@@ -135,4 +135,30 @@ body{
 .footer h1{
     font-family: 'Brush Script MT',
     cursive;
+}
+
+.get-update-form{
+    height: 180px;
+    width: 800px;
+    background-color: antiquewhite;
+}
+
+.centering-input{
+    margin: 68px 0;
+    padding: 19px 50px;
+    
+    background-color: rgb(215, 215, 215);
+    border: none;
+}
+
+.subscribe-btn{
+
+    padding: 14px 20px 18px 20px;
+    background-color: rgb(241, 80, 80);
+    color: #fff;
+    
+    text-decoration: none;
+}
+.get-update h1{
+    font-size: 50px;
 }
