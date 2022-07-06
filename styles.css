@@ -6,7 +6,7 @@ body{
 }
 
 .header{
-    background-image: url(banner-img.png);
+    background-image: url(banner-img.PNG);
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -137,9 +137,7 @@ body{
     color: #fff;
     padding: 20px;
 }
-.bonus-header h1{
-    font-size: ;
-}
+
 .bonus-sub-text{
     color: rgb(199, 197, 197);
     font-family: 'Times New Roman', Times, serif;
