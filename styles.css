@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  background-image: url(./banner-img.png);
+  background-image: url(images/banner-img.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
