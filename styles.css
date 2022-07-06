@@ -6,7 +6,7 @@ body{
 }
 
 .header{
-    background-image: url(/images/banner-img.PNG);
+    background-image: url(banner-img.png);
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -122,7 +122,7 @@ body{
 }
 
 .bonus-section{
-    background-image: url(/images/homeless.JPG);
+    background-image: url(homeless.JPG);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
