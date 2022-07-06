@@ -1,200 +1,193 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Slab',
-    serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
 }
 
-.header{
-    background-image: url(banner-img.PNG);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    
+.header {
+  background-image: url(./banner-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .text-align {
-    text-align: center;
+  text-align: center;
 }
 
-
-.header h3{
-    margin-bottom: 50px;
+.header h3 {
+  margin-bottom: 50px;
 }
 
-
-.orange-text{
-    color: orangered;
+.orange-text {
+  color: orangered;
 }
-.header-text{
-    font-size: 80px;
-    margin-bottom: 10px;
+.header-text {
+  font-size: 80px;
+  margin-bottom: 10px;
 }
 
 .header .banner-text {
-    padding: 120px 220px;
-    color: #fff;
+  padding: 120px 220px;
+  color: #fff;
 }
 
-.link-btn{
-    padding: 15px 20px;
-    background-color: rgb(241, 80, 80);
-    color: #fff;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    
+.link-btn {
+  padding: 15px 20px;
+  background-color: rgb(241, 80, 80);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
 }
-
 
 .centering-text {
-    padding: 0 300px 50px 300px;
+  padding: 0 300px 50px 300px;
 }
 
-
-.sub-text{
-    color: rgb(180, 180, 180);
-    font-family: 'Source Sans Pro',
-    sans-serif;
+.sub-text {
+  color: rgb(180, 180, 180);
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.highlight{
-    width: 150px;
-    padding: 40px 0;
-    background-color: rgb(254, 223, 221);
-    border: 1px solid rgb(255, 80, 80);
-    margin: 0 10px 80px 10px;
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600;
-    color: rgb(255, 80, 80);
-    border-radius: 5px;
-
+.highlight {
+  width: 150px;
+  padding: 40px 0;
+  background-color: rgb(254, 223, 221);
+  border: 1px solid rgb(255, 80, 80);
+  margin: 0 10px 80px 10px;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(255, 80, 80);
+  border-radius: 5px;
 }
-#amount  {
-    width: 150px;
-    padding: 40px 0;
-    background-color: rgb(240, 242, 243);
-    margin: 0 10px 80px 10px; 
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600;
-    color: rgb(122, 121, 121);
-    border-radius: 5px;
-    
+#amount {
+  width: 150px;
+  padding: 40px 0;
+  background-color: rgb(240, 242, 243);
+  margin: 0 10px 80px 10px;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(122, 121, 121);
+  border-radius: 5px;
 }
-.insert-tk p{
-    color: rgb(192, 191, 191);
+.insert-tk p {
+  color: rgb(192, 191, 191);
 }
 
 .insert-tk hr {
-    display: block;
-    margin: 0.5em 300px 40px 300px;
-    border: none;
-    height: 1px;
-    background-color: rgb(216, 215, 215);
+  display: block;
+  margin: 0.5em 300px 40px 300px;
+  border: none;
+  height: 1px;
+  background-color: rgb(216, 215, 215);
 }
 
-
-.donate-today{
-    margin-bottom: 150px;
+.donate-today {
+  margin-bottom: 150px;
 }
 
-#box-type{
-    width: 300px;
-    padding: 40px 30px 40px 30px;
-    margin: 50px 10px 80px 10px;
-    display: inline-block;
-    height: 250px;
-    text-align: left;
+#box-type {
+  width: 300px;
+  padding: 40px 30px 40px 30px;
+  margin: 50px 10px 80px 10px;
+  display: inline-block;
+  height: 250px;
+  text-align: left;
 }
 
-.education-box{
-    background-color: rgb(255, 237, 213);
+.education-box {
+  background-color: rgb(255, 237, 213);
 }
 
-.food-box{
-    background-color: rgb(240, 254, 211);
+.food-box {
+  background-color: rgb(240, 254, 211);
 }
 
-.shelter-box{
-    background-color: rgb(216, 222, 255);
+.shelter-box {
+  background-color: rgb(216, 222, 255);
 }
 
-.bonus-section{
-    background-image: url(homeless.JPG);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    min-height: 100%;
+.bonus-section {
+  background-image: url(homeless.JPG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100%;
 }
 
-.bonus-header{
-    padding: 0px 200px;
+.bonus-header {
+  padding: 0px 200px;
 }
 .bonus-header-text {
-    font-size: 40px;
-    color: #fff;
-    padding: 20px;
+  font-size: 40px;
+  color: #fff;
+  padding: 20px;
 }
 
-.bonus-sub-text{
-    color: rgb(199, 197, 197);
-    font-family: 'Times New Roman', Times, serif;
-
+.bonus-sub-text {
+  color: rgb(199, 197, 197);
+  font-family: "Times New Roman", Times, serif;
 }
 
-#circle-type{
-    display: inline-block;
-    position: center center;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin: 20px 20px;
-    padding: 20px 20px;
-    text-align: center;
-    background-image: linear-gradient(to right top, #f2f2f2, #dddddd, #c8c8c8, #b4b4b4, #a0a0a0);
+#circle-type {
+  display: inline-block;
+  position: center center;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin: 20px 20px;
+  padding: 20px 20px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right top,
+    #f2f2f2,
+    #dddddd,
+    #c8c8c8,
+    #b4b4b4,
+    #a0a0a0
+  );
 }
 
-#circle-type img{
-    margin-top: 50px;
+#circle-type img {
+  margin-top: 50px;
 }
 
-.get-update-form{
-    height: 180px;
-    width: 800px;
-    background-color: antiquewhite;
+.get-update-form {
+  height: 180px;
+  width: 800px;
+  background-color: antiquewhite;
 }
 
-.centering-input{
-    margin: 68px 0;
-    padding: 19px 50px;
-    
-    background-color: rgb(215, 215, 215);
-    border: none;
+.centering-input {
+  margin: 68px 0;
+  padding: 19px 50px;
+
+  background-color: rgb(215, 215, 215);
+  border: none;
 }
 
-.subscribe-btn{
+.subscribe-btn {
+  padding: 14px 20px 18px 20px;
+  background-color: rgb(241, 80, 80);
+  color: #fff;
 
-    padding: 14px 20px 18px 20px;
-    background-color: rgb(241, 80, 80);
-    color: #fff;
-    
-    text-decoration: none;
+  text-decoration: none;
 }
-.get-update h1{
-    font-size: 50px;
+.get-update h1 {
+  font-size: 50px;
 }
 .footer {
-    padding: 50px 0;
-    text-align: center;
-    color: #fff;
-    height: 70px;
-    width: 100%;
-    background-color: rgb(14, 13, 26);
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(14, 13, 26);
 }
 
 .footer h1 {
-    font-family: 'Brush Script MT',
-        cursive;
+  font-family: "Brush Script MT", cursive;
 }
