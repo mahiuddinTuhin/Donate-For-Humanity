@@ -6,9 +6,7 @@ body{
 }
 
 .header{
-    
-    
-    background-image: url(/images/banner-img.png);
+    background-image: url(images/banner-img.png);
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -110,8 +108,6 @@ body{
     height: 250px;
     text-align: left;
 }
-
-
 
 .education-box{
     background-color: rgb(255, 237, 213);
